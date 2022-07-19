@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScreenSix: View {
+struct Login: View {
     //MARK: - PROPERTIES
     @State var username: String = ""
     @State var password: String = ""
@@ -15,19 +15,14 @@ struct ScreenSix: View {
     var body: some View {
         ZStack{
             //  BG
-            Image("bg-6")
-                .resizable()
-                .edgesIgnoringSafeArea(.all)
-            
             VStack{
                 //  logo
-                Image("logo-6")
-                    .resizable()
+                Image("8")
                     .frame(width: 166.14, height: 26)
                     .padding(.top, 50)
                 Spacer()
                 //  Form
-                VStack(spacing:0){
+                VStack(spacing:10){
                     Label {
                         CustomTextfield(placeholder: Text("Username"), fontName: "NunitoSans-Regular", fontSize: 16, fontColor: Color.white, foregroundColor: Color.white, username: $username)
                     } icon: {
@@ -67,12 +62,31 @@ struct ScreenSix: View {
             .foregroundColor(.white)
             .padding(.horizontal,20)
             
-        }
+        }.background(LinearGradient(gradient: Gradient(colors: [Color("midnightblue"), Color("lightblue")]), startPoint: .top, endPoint: .bottom)
+            .edgesIgnoringSafeArea(.all))
     }
 }
-
-struct ScreenSix_Previews: PreviewProvider {
+struct CustomTextM: ViewModifier {
+    //MARK:- PROPERTIES
+    let fontName: String
+    let fontSize: CGFloat
+    let fontColor: Color
+    
+    func body(content: Content) -> some View {
+        content
+            .font(.custom(fontName, size: fontSize))
+            .foregroundColor(fontColor)
+    }
+}
+struct SFButton: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .frame(maxWidth: .infinity)
+            .frame(height: 56, alignment: .leading)
+    }
+}
+struct Login_Previews: PreviewProvider {
     static var previews: some View {
-        ScreenSix()
+        Login()
     }
 }

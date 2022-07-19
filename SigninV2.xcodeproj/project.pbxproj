@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33226E77258901CC00534B0A /* ScreenFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33226E76258901CC00534B0A /* ScreenFour.swift */; };
 		33226E7C258914FF00534B0A /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33226E7B258914FF00534B0A /* MavenPro-Regular.ttf */; };
 		336B791D2521081600A6E1B1 /* SigninV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B791C2521081600A6E1B1 /* SigninV2App.swift */; };
 		336B791F2521081600A6E1B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B791E2521081600A6E1B1 /* ContentView.swift */; };
 		336B794F25210A5600A6E1B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336B79232521081A00A6E1B1 /* Preview Assets.xcassets */; };
 		336B795925210AD800A6E1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336B79202521081A00A6E1B1 /* Assets.xcassets */; };
-		336B797D25210CEF00A6E1B1 /* ScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B797C25210CEF00A6E1B1 /* ScreenOne.swift */; };
 		336B797F252112CD00A6E1B1 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7938252108A100A6E1B1 /* MavenPro-Bold.ttf */; };
 		336B7980252112CD00A6E1B1 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7931252108A100A6E1B1 /* NunitoSans-Regular.ttf */; };
 		336B7981252112CD00A6E1B1 /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7934252108A100A6E1B1 /* MavenPro-Medium.ttf */; };
@@ -29,14 +27,17 @@
 		336B798C252112CD00A6E1B1 /* WorkSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7935252108A100A6E1B1 /* WorkSans-Black.otf */; };
 		336B79902521190900A6E1B1 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B798F2521190900A6E1B1 /* CustomTextfield.swift */; };
 		336B799325211A2400A6E1B1 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B799225211A2400A6E1B1 /* CustomSecureField.swift */; };
-		336B79A6252128E300A6E1B1 /* ScreenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B79A5252128E300A6E1B1 /* ScreenTwo.swift */; };
-		336B79AE2521369100A6E1B1 /* ScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B79AD2521369100A6E1B1 /* ScreenThree.swift */; };
-		33DEA3CE2589741000B5E0E8 /* ScreenFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEA3CD2589741000B5E0E8 /* ScreenFive.swift */; };
-		33DEA3D2258A1E4500B5E0E8 /* ScreenSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEA3D1258A1E4500B5E0E8 /* ScreenSix.swift */; };
+		33DEA3D2258A1E4500B5E0E8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEA3D1258A1E4500B5E0E8 /* Login.swift */; };
+		D611AA242881D2C900E31D35 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611AA232881D2C900E31D35 /* Index.swift */; };
+		D611AA282881D8AD00E31D35 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611AA272881D8AD00E31D35 /* SignUp.swift */; };
+		D611AA2A2881DAB500E31D35 /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611AA292881DAB500E31D35 /* CreateProfile.swift */; };
+		D611AA2C2881DB1B00E31D35 /* JobPreference1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611AA2B2881DB1B00E31D35 /* JobPreference1.swift */; };
+		D62DFE212885998700F15F74 /* JobPreferences2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DFE202885998700F15F74 /* JobPreferences2.swift */; };
+		D62DFE282885AEC400F15F74 /* agDB.db in Resources */ = {isa = PBXBuildFile; fileRef = D62DFE272885AEC400F15F74 /* agDB.db */; };
+		D62DFE2A2885AF8300F15F74 /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DFE292885AF8300F15F74 /* DBhelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33226E76258901CC00534B0A /* ScreenFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFour.swift; sourceTree = "<group>"; };
 		33226E7B258914FF00534B0A /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
 		336B79192521081600A6E1B1 /* SigninV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigninV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336B791C2521081600A6E1B1 /* SigninV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninV2App.swift; sourceTree = "<group>"; };
@@ -57,13 +58,17 @@
 		336B793A252108A100A6E1B1 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		336B793B252108A100A6E1B1 /* Oxygen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Bold.ttf"; sourceTree = "<group>"; };
 		336B793C252108A100A6E1B1 /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
-		336B797C25210CEF00A6E1B1 /* ScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOne.swift; sourceTree = "<group>"; };
 		336B798F2521190900A6E1B1 /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
 		336B799225211A2400A6E1B1 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
-		336B79A5252128E300A6E1B1 /* ScreenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwo.swift; sourceTree = "<group>"; };
-		336B79AD2521369100A6E1B1 /* ScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThree.swift; sourceTree = "<group>"; };
-		33DEA3CD2589741000B5E0E8 /* ScreenFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFive.swift; sourceTree = "<group>"; };
-		33DEA3D1258A1E4500B5E0E8 /* ScreenSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSix.swift; sourceTree = "<group>"; };
+		33DEA3D1258A1E4500B5E0E8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D611AA232881D2C900E31D35 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
+		D611AA272881D8AD00E31D35 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		D611AA292881DAB500E31D35 /* CreateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
+		D611AA2B2881DB1B00E31D35 /* JobPreference1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPreference1.swift; sourceTree = "<group>"; };
+		D62DFE202885998700F15F74 /* JobPreferences2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPreferences2.swift; sourceTree = "<group>"; };
+		D62DFE272885AEC400F15F74 /* agDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = agDB.db; path = ../../../../../Downloads/agDB.db; sourceTree = "<group>"; };
+		D62DFE292885AF8300F15F74 /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
+		D62DFE2C2885AF9F00F15F74 /* agDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = agDB.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 		336B791B2521081600A6E1B1 /* SigninV2 */ = {
 			isa = PBXGroup;
 			children = (
+				D62DFE272885AEC400F15F74 /* agDB.db */,
+				D62DFE2B2885AF9400F15F74 /* Databases */,
+				D62DFE2228859E7400F15F74 /* Model */,
 				336B792C2521082E00A6E1B1 /* App */,
 				336B793D252108AC00A6E1B1 /* Fonts */,
 				336B792D2521084400A6E1B1 /* View */,
@@ -125,14 +133,14 @@
 		336B792D2521084400A6E1B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				336B791E2521081600A6E1B1 /* ContentView.swift */,
-				336B797C25210CEF00A6E1B1 /* ScreenOne.swift */,
-				336B79A5252128E300A6E1B1 /* ScreenTwo.swift */,
-				336B79AD2521369100A6E1B1 /* ScreenThree.swift */,
-				33226E76258901CC00534B0A /* ScreenFour.swift */,
-				33DEA3CD2589741000B5E0E8 /* ScreenFive.swift */,
 				336B792E2521085000A6E1B1 /* Components */,
-				33DEA3D1258A1E4500B5E0E8 /* ScreenSix.swift */,
+				336B791E2521081600A6E1B1 /* ContentView.swift */,
+				D611AA272881D8AD00E31D35 /* SignUp.swift */,
+				D611AA2B2881DB1B00E31D35 /* JobPreference1.swift */,
+				D62DFE202885998700F15F74 /* JobPreferences2.swift */,
+				D611AA292881DAB500E31D35 /* CreateProfile.swift */,
+				33DEA3D1258A1E4500B5E0E8 /* Login.swift */,
+				D611AA232881D2C900E31D35 /* Index.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +173,22 @@
 				336B7936252108A100A6E1B1 /* WorkSans-Regular.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D62DFE2228859E7400F15F74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D62DFE2B2885AF9400F15F74 /* Databases */ = {
+			isa = PBXGroup;
+			children = (
+				D62DFE2C2885AF9F00F15F74 /* agDB.db */,
+				D62DFE292885AF8300F15F74 /* DBhelper.swift */,
+			);
+			path = Databases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +262,7 @@
 				336B798C252112CD00A6E1B1 /* WorkSans-Black.otf in Resources */,
 				336B7983252112CD00A6E1B1 /* WorkSans-Regular.otf in Resources */,
 				336B7980252112CD00A6E1B1 /* NunitoSans-Regular.ttf in Resources */,
+				D62DFE282885AEC400F15F74 /* agDB.db in Resources */,
 				336B7981252112CD00A6E1B1 /* MavenPro-Medium.ttf in Resources */,
 				336B7985252112CD00A6E1B1 /* WorkSans-Bold.otf in Resources */,
 			);
@@ -250,16 +275,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D611AA282881D8AD00E31D35 /* SignUp.swift in Sources */,
 				336B79902521190900A6E1B1 /* CustomTextfield.swift in Sources */,
-				336B797D25210CEF00A6E1B1 /* ScreenOne.swift in Sources */,
 				336B799325211A2400A6E1B1 /* CustomSecureField.swift in Sources */,
+				D62DFE212885998700F15F74 /* JobPreferences2.swift in Sources */,
+				D611AA2A2881DAB500E31D35 /* CreateProfile.swift in Sources */,
+				D611AA242881D2C900E31D35 /* Index.swift in Sources */,
+				D611AA2C2881DB1B00E31D35 /* JobPreference1.swift in Sources */,
 				336B791F2521081600A6E1B1 /* ContentView.swift in Sources */,
-				33DEA3D2258A1E4500B5E0E8 /* ScreenSix.swift in Sources */,
-				336B79AE2521369100A6E1B1 /* ScreenThree.swift in Sources */,
-				336B79A6252128E300A6E1B1 /* ScreenTwo.swift in Sources */,
+				33DEA3D2258A1E4500B5E0E8 /* Login.swift in Sources */,
+				D62DFE2A2885AF8300F15F74 /* DBhelper.swift in Sources */,
 				336B791D2521081600A6E1B1 /* SigninV2App.swift in Sources */,
-				33DEA3CE2589741000B5E0E8 /* ScreenFive.swift in Sources */,
-				33226E77258901CC00534B0A /* ScreenFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
