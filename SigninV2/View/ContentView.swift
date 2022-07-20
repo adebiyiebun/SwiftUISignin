@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var viewContext
+    private var UsersVM: UsersViewModel
+    init(vm: UsersViewModel){
+        self.UsersVM = vm
+    }
     var body: some View {
         VStack{
-            JobPreference1()
+            Index()
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let viewContext = CoreDataManager.shared.persistentStoreContainer.viewContext
+        ContentView(vm:UsersViewModel(context: viewContext))
     }
 }

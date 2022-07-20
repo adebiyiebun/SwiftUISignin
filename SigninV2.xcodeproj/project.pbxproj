@@ -33,8 +33,12 @@
 		D611AA2A2881DAB500E31D35 /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611AA292881DAB500E31D35 /* CreateProfile.swift */; };
 		D611AA2C2881DB1B00E31D35 /* JobPreference1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611AA2B2881DB1B00E31D35 /* JobPreference1.swift */; };
 		D62DFE212885998700F15F74 /* JobPreferences2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DFE202885998700F15F74 /* JobPreferences2.swift */; };
-		D62DFE282885AEC400F15F74 /* agDB.db in Resources */ = {isa = PBXBuildFile; fileRef = D62DFE272885AEC400F15F74 /* agDB.db */; };
 		D62DFE2A2885AF8300F15F74 /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DFE292885AF8300F15F74 /* DBhelper.swift */; };
+		D62DFE322886BFCF00F15F74 /* ag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D62DFE302886BFCF00F15F74 /* ag.xcdatamodeld */; };
+		D6720A7C2887FFE200A910D1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6720A7B2887FFE200A910D1 /* CoreDataManager.swift */; };
+		D6720A7F2888049900A910D1 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6720A7E2888049900A910D1 /* UsersViewModel.swift */; };
+		D6720A8228880B7E00A910D1 /* AddUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6720A8128880B7E00A910D1 /* AddUserViewModel.swift */; };
+		D6720A8428880BA700A910D1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6720A8328880BA700A910D1 /* BaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,9 +70,13 @@
 		D611AA292881DAB500E31D35 /* CreateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
 		D611AA2B2881DB1B00E31D35 /* JobPreference1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPreference1.swift; sourceTree = "<group>"; };
 		D62DFE202885998700F15F74 /* JobPreferences2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPreferences2.swift; sourceTree = "<group>"; };
-		D62DFE272885AEC400F15F74 /* agDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = agDB.db; path = ../../../../../Downloads/agDB.db; sourceTree = "<group>"; };
 		D62DFE292885AF8300F15F74 /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
 		D62DFE2C2885AF9F00F15F74 /* agDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = agDB.db; sourceTree = "<group>"; };
+		D62DFE312886BFCF00F15F74 /* ag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ag.xcdatamodel; sourceTree = "<group>"; };
+		D6720A7B2887FFE200A910D1 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D6720A7E2888049900A910D1 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		D6720A8128880B7E00A910D1 /* AddUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewModel.swift; sourceTree = "<group>"; };
+		D6720A8328880BA700A910D1 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,10 @@
 		336B791B2521081600A6E1B1 /* SigninV2 */ = {
 			isa = PBXGroup;
 			children = (
-				D62DFE272885AEC400F15F74 /* agDB.db */,
+				D62DFE302886BFCF00F15F74 /* ag.xcdatamodeld */,
+				D6720A80288804A100A910D1 /* View Models */,
+				D6720A7D2887FFE700A910D1 /* Managers */,
 				D62DFE2B2885AF9400F15F74 /* Databases */,
-				D62DFE2228859E7400F15F74 /* Model */,
 				336B792C2521082E00A6E1B1 /* App */,
 				336B793D252108AC00A6E1B1 /* Fonts */,
 				336B792D2521084400A6E1B1 /* View */,
@@ -175,13 +184,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		D62DFE2228859E7400F15F74 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		D62DFE2B2885AF9400F15F74 /* Databases */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +191,24 @@
 				D62DFE292885AF8300F15F74 /* DBhelper.swift */,
 			);
 			path = Databases;
+			sourceTree = "<group>";
+		};
+		D6720A7D2887FFE700A910D1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D6720A7B2887FFE200A910D1 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D6720A80288804A100A910D1 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6720A7E2888049900A910D1 /* UsersViewModel.swift */,
+				D6720A8128880B7E00A910D1 /* AddUserViewModel.swift */,
+				D6720A8328880BA700A910D1 /* BaseModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +282,6 @@
 				336B798C252112CD00A6E1B1 /* WorkSans-Black.otf in Resources */,
 				336B7983252112CD00A6E1B1 /* WorkSans-Regular.otf in Resources */,
 				336B7980252112CD00A6E1B1 /* NunitoSans-Regular.ttf in Resources */,
-				D62DFE282885AEC400F15F74 /* agDB.db in Resources */,
 				336B7981252112CD00A6E1B1 /* MavenPro-Medium.ttf in Resources */,
 				336B7985252112CD00A6E1B1 /* WorkSans-Bold.otf in Resources */,
 			);
@@ -276,12 +295,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D611AA282881D8AD00E31D35 /* SignUp.swift in Sources */,
+				D6720A7F2888049900A910D1 /* UsersViewModel.swift in Sources */,
 				336B79902521190900A6E1B1 /* CustomTextfield.swift in Sources */,
 				336B799325211A2400A6E1B1 /* CustomSecureField.swift in Sources */,
 				D62DFE212885998700F15F74 /* JobPreferences2.swift in Sources */,
 				D611AA2A2881DAB500E31D35 /* CreateProfile.swift in Sources */,
+				D6720A8428880BA700A910D1 /* BaseModel.swift in Sources */,
 				D611AA242881D2C900E31D35 /* Index.swift in Sources */,
 				D611AA2C2881DB1B00E31D35 /* JobPreference1.swift in Sources */,
+				D6720A8228880B7E00A910D1 /* AddUserViewModel.swift in Sources */,
+				D6720A7C2887FFE200A910D1 /* CoreDataManager.swift in Sources */,
+				D62DFE322886BFCF00F15F74 /* ag.xcdatamodeld in Sources */,
 				336B791F2521081600A6E1B1 /* ContentView.swift in Sources */,
 				33DEA3D2258A1E4500B5E0E8 /* Login.swift in Sources */,
 				D62DFE2A2885AF8300F15F74 /* DBhelper.swift in Sources */,
@@ -474,6 +498,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D62DFE302886BFCF00F15F74 /* ag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D62DFE312886BFCF00F15F74 /* ag.xcdatamodel */,
+			);
+			currentVersion = D62DFE312886BFCF00F15F74 /* ag.xcdatamodel */;
+			path = ag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 336B79112521081600A6E1B1 /* Project object */;
 }

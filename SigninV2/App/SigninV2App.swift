@@ -11,7 +11,8 @@ import SwiftUI
 struct SigninV2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewContext = CoreDataManager.shared.persistentStoreContainer.viewContext
+            ContentView(vm:UsersViewModel(context: viewContext)).environment(\.managedObjectContext,viewContext)
         }
     }
 }
